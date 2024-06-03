@@ -36,6 +36,11 @@
   --section-gap: 160px;
 }
 
+/* font variables */
+:root {
+  --primary-title-font: 'Ubuntu Sans Mono';
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);

@@ -4,7 +4,8 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <v-app>
-    <v-app-bar title="WilliamThackeray.com">
+    <v-app-bar>
+      <v-app-bar-title class="title">WilliamThackeray.com</v-app-bar-title>
       <v-tabs>
         <v-tab>Home</v-tab>
         <v-tab>About</v-tab>
@@ -20,4 +21,9 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped>
+.title {
+  font-family: monospace;
+  font-family: var(--primary-title-font);
+}
+</style>
